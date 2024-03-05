@@ -1,0 +1,204 @@
+header{
+    width: 100%;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+ }
+ .header_contactus{
+     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+     background-color: #fff;
+     padding-top: 40px;
+     padding-bottom: 38px;
+ }
+ .header_contactus_part{
+     font-size: 0px;
+     position: relative;
+     width: 100%;
+ }
+ .header_contactus_left{
+     width: 20%;
+     display: inline-block;
+     vertical-align: middle;
+ }
+ .header_contactus_middile{
+     width: 60%;
+     display: inline-block;
+     text-align: right;
+     vertical-align: middle;
+ }
+ .header_contactus_right{
+     width: 20%;
+     display: inline-block;
+     vertical-align: middle;
+ }
+ .header_contactus_left>a>h3{
+     font-size: 24px;
+     color: #470298;
+ }
+ .header_contactus_list>li{
+     font-size: 14px;
+     color: #5b5b5b;
+     display: inline-block;
+     padding-right: 28px;
+ }
+ .header_contactus_list>:nth-child(5){
+     padding-right: 0px;
+ }
+ .header_contactus_list>li:last-child{
+     padding-right: 43px;
+     padding-left: 35px;
+     color: #5b5b5b;
+     font-weight: bold;
+     font-size: 13px;
+ }
+ .header_contactus_right>a>h3{
+     font-size: 13px;
+ }
+ .header_contactus_right>a>h3{
+     width: 140px;
+     height: 38px;
+     border-radius: 19px;
+     background-color: #fb1ea0;
+     border: 1px solid #fb1ea0;
+     padding: 11px 45px;
+     color: #fff;
+ }
+ /* form_part */
+ .signup_form{
+    margin-top: 120px;
+    padding: 60px 0px;
+ }
+ .signup_form_part{
+    font-size: 0px;
+    position: relative;
+    text-align: center;
+    width: 601px;
+    border-radius: 3px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.18);
+    background-color: #fff;
+    margin: 0px auto;
+    padding-bottom: 60px;
+ }
+ .signup_form_part>form>h2{
+    font-size: 35px;
+    color: #5b5b5b;
+    padding-top: 40px;
+ }
+ .signup_form_part>form>p{
+    font-size: 15px;
+    color: #5b5b5b;
+    padding-top: 5px;
+    padding-bottom: 46px;
+ }
+ .sighnup_form_group>input{
+    height: 50px;
+    width: 430px;
+    border: solid 1px #cbcbcb;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: #fafafa;
+    margin-bottom: 26px;
+ }
+ .signup_signup>input{
+    background-color: #fb1ea0;
+    border: 1px solid #fb1ea0;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+ }
+ .already{
+    border-bottom: 1px solid #dddd;
+    margin: 0px 120px;
+    position: relative;
+ }
+ .already>p{
+    font-size: 15px;
+    color: #5b5b5b;
+    padding-top: 5px;
+    padding-bottom: 31px;
+ }
+ .already>p>span
+ {
+    color:#e90d8f;
+    cursor: pointer;
+ }
+ .already>span{
+    font-size: 14px;
+    width: 100px;
+    background-color: #fff;
+    position: absolute;
+    margin: -6px auto;
+    left: 0px;
+    right: 0px;
+ }
+ .btns{
+    font-size: 0px;
+    position: relative;
+    padding-top: 36px;
+ }
+ .google_btn{
+    font-size: 14px;
+    border: 1px solid red;
+    height:45px;
+    width: 220px;
+    padding: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 20px;
+ }
+ .google_btn>a>i{
+    display: inline-block;
+    color: #fff;
+    background-color: red;
+    font-size: 12px;
+    padding: 2px;
+    margin-right: 5px;
+ }
+ .google_btn>a>p{
+    display: inline-block;
+ }
+ .google_btn:hover{
+    background-color: red;
+ }
+ .google_btn:hover i{
+    background-color: #fff ;
+    color: red;
+ }
+ .google_btn:hover .gg{
+    color: #fff;
+ }
+ 
+ .linkdin_btn{
+    font-size: 14px;
+    border: 1px solid rgb(0, 26, 255);
+    height:45px;
+    width: 220px;
+    padding: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: inline-block;
+ }
+ .linkdin_btn>a>i{
+    display: inline-block;
+    color: #fff;
+    background-color: rgb(0, 26, 255);
+    font-size: 12px;
+    padding: 3px;
+    margin-right: 5px;
+ }
+ .linkdin_btn>a>p{
+    display: inline-block;
+ }
+ .linkdin_btn:hover{
+    background-color: rgb(0, 26, 255);
+ }
+ .linkdin_btn:hover i{
+    background-color: #ffff;
+    color: rgb(0, 26, 255);
+ }
+ .linkdin_btn:hover p{
+    color: #fff;
+ }
